@@ -83,18 +83,8 @@ section .background::after {
   place-items: center;
 }
 
-#videoContainer video {
-  width: 100% !important;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-
-  grid-row: 1/-1;
-  grid-column: 1/-1;
-}
-
 section h2 {
-  width: clamp(200px, 75%, 700px);
+  width: clamp(200px, 80%, 700px);
   place-self: center;
 }
 
@@ -123,7 +113,7 @@ main p {
   align-self: start;
   text-align: center;
   font-weight: 500;
-  width: clamp(500px, 80%, 800px);
+  width: clamp(350px, 80%, 800px);
   padding: 20px;
 }
 
